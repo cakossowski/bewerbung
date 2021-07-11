@@ -1,0 +1,295 @@
+/*  START Major Element Styles */
+
+a.footer{
+  color: #3f72af;
+  font-weight: normal;
+  margin: 15px 15px 15px 15px;
+}
+
+a.footer:link {
+  text-decoration: none;
+}
+
+a.footer:visited {
+  text-decoration: none;
+}
+
+a.footer:hover {
+  color: #dbe2ef;
+  text-decoration: none;
+}
+
+a.footer:active {
+  text-decoration: none;
+}
+
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+margin: 50px auto 0 auto;
+font-family: "Sacramento", cursive;
+font-size: 4.5rem;
+font-weight: normal;
+color:#dbe2ef;
+}
+
+h2 {
+font-family: "Montserrat", sans-serif;
+font-size: 1.75rem;
+color: #3f72af;
+margin: 20px auto;
+font-weight: 900;
+}
+
+.subtitle_h2 {
+
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.75rem;
+  color: #dbe2ef;
+  font-weight: normal;
+  line-height: 2;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #3f72af;
+  font-weight: 900;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #3f72af;
+  font-weight: 900;
+  font-size: 1.25rem;
+}
+
+hr {
+border: dotted #112d4e  5px;
+border-bottom: none;
+margin: 50px auto 50px auto;
+width: 5%;
+}
+
+p {
+color: #40514E;
+line-height: 2;
+}
+/*  END Major Element Styles */
+
+
+
+/*  START Container Styles */
+
+.top-container {
+position: relative;
+background-color: #112d4e;
+margin: 0;
+width:100%;
+border-bottom: 3px solid #3f72af;
+}
+
+.middle-container {
+margin-top: 2%;
+}
+
+.portfolio {
+  display: inline-block;
+  border-radius: 25px;
+  background-color: #dbe2ef;
+  margin-top: 1%;
+  margin-right: 1%;
+  width: 30%;
+  padding: 0.5%;
+}
+
+.left_skill {
+  border-radius: 25px;
+  display: inline-block;
+  background-color: #dbe2ef;
+  margin-right: 1%;
+  margin-top: 2%;
+  width: 30%;
+  height: 100px;
+}
+
+.right_skill {
+  border-radius: 25px;
+  display: inline-block;
+  background-color: #dbe2ef;
+  margin-left: 1%;
+  margin-top: 2%;
+  width: 30%;
+  height: 100px;
+}
+
+.bottom-container {
+background-color: #112d4e;
+padding-top: 2%;
+padding-bottom: 1%;
+border-top: 3px solid #3f72af;
+margin-top: 3%;
+}
+
+.impressum {
+  margin: 3% auto 3% auto;
+  width: 35%;
+  line-height: 2;
+  font-weight: normal;
+  color: #40514E;
+  text-align: left;
+}
+/*  END Container Styles */
+
+
+
+/*  START IMG Styles */
+
+
+.earth{
+  display: flex;
+  vertical-align: bottom;
+  margin: 0 auto 0 auto;
+}
+
+.top_cloud {
+position: relative;
+padding-top: 3%;
+margin-left: 20%;
+}
+
+.left_cloud {
+position: relative;
+margin-right: 40%;
+padding-bottom: 1%;
+}
+
+.screenshot {
+border-radius: 100%;
+float: left;
+margin-right: 1%;
+}
+
+.btnwrap {
+  margin: 5% auto 1% auto;
+  padding: 0.5%;
+}
+
+.img-border {
+  border: 1px solid #112d4e;
+  margin: 3% 0;
+}
+/*  END IMG Styles */
+
+
+
+/*  START BTN Styles */
+
+.btnGHLD {
+	box-shadow:inset 0 1px 0 0 #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:3px;
+	border:1px solid #124d77;
+
+  margin: 0 4% 5%;
+
+	cursor:pointer;
+	color:#ffffff;
+	font-family: "Montserrat", serif;
+	font-size:16px;
+	padding:9px 24px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #154682;
+}
+.btnGHLD:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+  text-decoration: none;
+  color: #fff;
+}
+.btnGHLD:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.btnContact {
+	box-shadow:inset 0 1px 0 0 #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Montserrat";
+	font-size:16px;
+	padding:9px 24px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #154682;
+}
+.btnContact:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+  text-decoration: none;
+  color: #fff;
+}
+.btnContact:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+/*  END BTN Styles */
+
+
+
+/*  START TEXT Styles */
+
+.intro {
+  width:30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.copyright {
+  color:#dbe2ef;
+  margin: 2% auto 1% auto;
+}
+
+.outro {
+
+  width: 35%;
+  color: #40514E;
+  line-height: 2;
+  margin: 1% auto 3% auto;
+}
+/*  END TEXT Styles */
+
+
+
+#portfolio {
+  padding: 0 2%;
+  text-align: center;
+
+}
+
+.portfolio-column {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+.card-footer {
+  border: 0;
+  background-color: #fff;
+  margin-bottom: 5%;
+}
